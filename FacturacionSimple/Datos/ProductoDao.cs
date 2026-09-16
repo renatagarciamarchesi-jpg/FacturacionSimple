@@ -3,6 +3,9 @@ using Microsoft.Data.SqlClient;
 
 namespace FacturacionSimple.Datos
 {
+    //RECORDATORIO: Los DAO (Data Access Objects u Objetos de Acceso a Datos) son patrones de diseño que
+    //proporcionan una interfaz abstracta para acceder a bases de datos, ocultando la lógica de persistencia
+    //al resto de la aplicación. 
     internal class ProductoDao
     {
         private const string ColumnasSelect = "Id, Codigo, Nombre, Precio, Activo";

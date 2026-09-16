@@ -7,6 +7,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace FacturacionSimple.Datos
 {
+    //RECORDATORIO: Los DAO (Data Access Objects u Objetos de Acceso a Datos) son patrones de diseño que
+    //proporcionan una interfaz abstracta para acceder a bases de datos, ocultando la lógica de persistencia
+    //al resto de la aplicación. 
     internal class FacturaDao
     {
         //Listado de cabeceras para la pantalla de consulta, con filtros
